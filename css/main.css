@@ -9,6 +9,30 @@ body {
   -webkit-overflow-scrolling: touch;
 }
 
+.img-container {
+  float: right;
+  width: 40%;
+  padding-left: 15%;
+}
+
+.move-left {
+  float: left;
+  width: 60%;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.description {
+  display: block;
+  display: inline;
+}
+
+img {
+  width: 250px;
+  height: 350px;
+  object-fit: cover;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: "Raleway";
   font-weight: 300;
