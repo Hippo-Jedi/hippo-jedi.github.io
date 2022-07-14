@@ -58,8 +58,10 @@
 <img src="bad2.png" alt="Italian Trulli">
 
 <p>
-  My final analysis of this malware is that it is a keylogger that reads and adds files to you keyboard settings. Then writes a script that deletes its own files to make it harder to catch. I do not know exactly what the changes to the keyboard settings do, but I would assume they trigger some sort of external search and download. The best way to see if you have this malware on your own device would be to check for the wm.ime file that it creates. Deleting that would disrupt the malware. It would also be best to look over your keyboard layout files and delete any extra file it may have created.
+  My final analysis of this malware is that it is a keylogger that reads and adds files to you keyboard settings. Then writes a script that deletes its own files to make it harder to catch. I do not know exactly what the changes to the keyboard settings do, but I would assume they trigger some sort of external search and download. The best way to see if you have this malware on your own device would be to check for the wm.ime file that it creates. Deleting that would disrupt the malware. It would also be best to look over your keyboard layout files and delete any extra file it may have created. Here is the yara rule I wrote for the .ime file that is created by the malware.
 </p>
+
+<img src="Yara_lab.png" alt="Italian Trulli">
 
 </div>
 
